@@ -88,18 +88,18 @@ export const botConfig = {
   embeds: {
     colors: {
       // Main brand colors.
-      primary: "#336699", 
-      secondary: "#2F3136", 
+      primary: "#FFFFC5", 
+      secondary: "#FFDF00", 
 
       // Standard status colors for success/error/warning/info messages.
       success: "#57F287", 
       error: "#ED4245", 
       warning: "#FEE75C", 
-      info: "#3498DB", 
+      info: "#FFFFC5", 
 
       // Neutral utility colors.
-      light: "#FFFFFF",
-      dark: "#202225",
+      light: "#FFFFC5",
+      dark: "#FFDF00",
       gray: "#99AAB5",
 
       // Discord-style palette shortcuts.
@@ -112,18 +112,18 @@ export const botConfig = {
 
       // Feature-specific colors.
       giveaway: {
-        active: "#57F287",
+        active: "#FFFFC5",
         ended: "#ED4245",
       },
       ticket: {
-        open: "#57F287",
+        open: "#FFFFC5",
         claimed: "#FAA61A",
         closed: "#ED4245",
         pending: "#99AAB5",
       },
       economy: "#F1C40F",
       birthday: "#E91E63",
-      moderation: "#9B59B6",
+      moderation: "#FFFFC5",
 
       // Ticket priority color mapping.
       priority: {
@@ -136,7 +136,7 @@ export const botConfig = {
     },
     footer: {
       // Default footer text used in bot embeds.
-      text: "Titan Bot",
+      text: "Mahiru Shiina at your service!",
       // Footer icon URL (null = no icon).
       icon: null,
     },
@@ -156,9 +156,9 @@ export const botConfig = {
   economy: {
     currency: {
       // Currency display name.
-      name: "coins",
+      name: "Euro",
       // Plural display name.
-      namePlural: "coins",
+      namePlural: "Euros",
       // Currency symbol shown in balances.
       symbol: "$",
     },
